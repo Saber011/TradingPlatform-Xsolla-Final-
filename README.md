@@ -13,7 +13,7 @@ mso-ansi-language:EN-US" lang="EN-US">io</span><span style="font-size:14.0pt;lin
 107%;font-family:&quot;Times New Roman&quot;,serif">/</span><span style="font-size:14.0pt;line-height:107%;font-family:&quot;Times New Roman&quot;,serif;
 mso-ansi-language:EN-US" lang="EN-US">download</span><span style="font-size:14.0pt;
 line-height:107%;font-family:&quot;Times New Roman&quot;,serif">) сервер локально,
-запустить его. Развернуть бекап базы данных, находиться в фале bac.bacpac (<a href="https://docs.microsoft.com/ru-ru/sql/relational-databases/data-tier-applications/import-a-bacpac-file-to-create-a-new-user-database?view=sql-server-ver15">https://docs.microsoft.com/ru-ru/sql/relational-databases/data-tier-applications/import-a-bacpac-file-to-create-a-new-user-database?view=sql-server-ver15</a>)</span></p>
+запустить его. Развернуть бекап базы данных, находиться в фале bac.bacpac (<a href="https://docs.microsoft.com/ru-ru/sql/relational-databases/data-tier-applications/import-a-bacpac-file-to-create-a-new-user-database?view=sql-server-ver15">https://docs.microsoft.com/ru-ru/sql/relational-databases/data-tier-applications/import-a-bacpac-file-to-create-a-new-user-database?view=sql-server-ver15</a>)</span></p> После установить свое подключение в файле appsettings.json
 
 
 
