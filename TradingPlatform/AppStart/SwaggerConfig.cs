@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
@@ -48,6 +50,11 @@ namespace TradingPlatform.AppStart
                         new List<string>()
                     }
                 });
+                var filePaths = options.FileNames.Select(fileName => Path.Combine(options.BasePath, $"{fileName}.xml")).ToArray();
+                foreach (var filePath in filePaths)
+                {
+                    config.IncludeXmlComments(filePath);
+                }
             });
         }
 

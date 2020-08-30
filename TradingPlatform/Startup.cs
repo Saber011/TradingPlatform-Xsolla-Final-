@@ -42,7 +42,7 @@ namespace TradingPlatform
                 BasePath = AppContext.BaseDirectory,
                 FileNames = new[]
                 {
-                    "RestService",
+                    "TradingPlatform",
                 },
             });
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
