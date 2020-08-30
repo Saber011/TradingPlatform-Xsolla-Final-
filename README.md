@@ -35,7 +35,7 @@ line-height:107%;font-family:&quot;Times New Roman&quot;,serif">) сервер �
 <p dir="auto">Опубликовать</p>
 <pre lang="plaintext"><code><span id="user-content-lc1" lang="plaintext">dotnet publish -c Release</span></code></pre>
 
-<p dir="auto"><em>Приложение опубликовано по адресу (Swagger): <br><a>https://tradingplatformapi.azurewebsites.net/</a></em></p>
+<p dir="auto"><em>Приложение опубликовано по адресу (Swagger): <br></em><a>https://tradingplatformapi.azurewebsites.net/</a></p>
 <h3 dir="auto">
 IDE</h3>
 <p dir="auto">Приложение разрабатывалось с использованием Visual Studio 2019 Enterprise и Rider.<br></p>
